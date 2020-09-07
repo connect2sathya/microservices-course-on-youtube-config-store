@@ -7,6 +7,5 @@ spring:
     platform: org.hibernate.dialect.H2Dialect
   jpa:
     hibernate:
-      ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
